@@ -12,4 +12,3 @@ services:
       - "8080:8080"
       - "1111:1111"
       - "1024:1024"
-    container_name: zola-server
