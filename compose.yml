@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  jh-devvs-cozy-corner:
+  zola:
     build: .
     command: serve --interface 0.0.0.0 --port 8080 --base-url localhost --drafts
     user: "1000:100"
@@ -12,4 +12,4 @@ services:
       - "8080:8080"
       - "1111:1111"
       - "1024:1024"
-    container_name: jh-devvs-cozy-corner
+    container_name: zola-server
