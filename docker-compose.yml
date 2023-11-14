@@ -1,0 +1,10 @@
+services:
+    zola: 
+        build:
+            context: .
+            target: zola-base
+        command: zola serve --interface 0.0.0.0
+        volumes:
+            - .:/site
+        ports:
+            - '1111:1111'
