@@ -35,8 +35,8 @@ url = "@/blog/_index.md"
 
 
 [[extra.main_menu]]
-name = "Portfolio"
-url = "@/portfolio/index.md"
+name = "Photography"
+url = "@/photography/index.md"
 
 
 [[extra.main_menu]]
