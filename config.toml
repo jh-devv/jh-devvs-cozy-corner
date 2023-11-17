@@ -33,6 +33,12 @@ url = "@/resume.md"
 name = "Blog"
 url = "@/blog/_index.md"
 
+
+[[extra.main_menu]]
+name = "Portfolio"
+url = "@/portfolio/_index.md"
+
+
 [[extra.main_menu]]
 name = "About"
 url = "@/about.md"
